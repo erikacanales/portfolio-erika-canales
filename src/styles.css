@@ -79,6 +79,26 @@ h3 {
     text-decoration: none;
 }
 
+.primary-btn-link:active {
+    color: var(--third-cta);
+    text-decoration: none;
+}
+
+.secondary-btn-link:active {
+    color: var(--secondary-cta);
+    text-decoration: none;
+}
+
+.cta-btn:active {
+    color: var(--third-cta);
+    text-decoration: none;
+}
+
+.secondary-cta-btn:active {
+    color: var(--secondary-cta);
+    text-decoration: none;
+}
+
 @media (max-width: 600px) {
     .hero-container {
         text-align: center;
