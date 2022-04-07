@@ -1,0 +1,71 @@
+:root {
+    --head-font: Merriweather, sans-serif;
+    --secondary-font: Lato, roboto;
+    --light-weight: 300;
+    --primary-cta: #30475E;
+    --secondary-cta: #222831;
+    --third-cta: #F05454;
+}
+
+h1 {
+    font-family: var(--head-font);
+}
+
+h3 {
+    font-family: var(--secondary-font);
+}
+
+.hero-pic {
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-container {
+    margin-top: 100px;
+}
+
+.secondary-intro {
+    font-weight: var(--light-weight)
+    ;
+}
+
+.cta-btn {
+    background-color: var(--third-cta);
+    border: 1px solid var(--third-cta);
+}
+
+.cta-btn:hover {
+    background-color: white;
+    border: 1px solid var(--third-cta);
+    color: var(--third-cta);
+}
+
+.cta-btn:focus {
+    background-color: white;
+    border: 1px solid var(--third-cta);
+    color: var(--third-cta) !important;
+}
+
+.cta-btn::after {
+    outline: 1rem var(--third-cta) !important;
+}
+
+.secondary-cta-btn {
+    background-color: var(--secondary-cta);
+    border: 1px solid var(--secondary-cta);
+}
+
+.secondary-cta-btn:hover {
+    background-color: white;
+    border: 1px solid var(--secondary-cta);
+    color: var(--secondary-cta);
+}
+
+@media (max-width: 600px) {
+    .hero-container {
+        text-align: center;
+    }
+}
