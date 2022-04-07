@@ -64,6 +64,21 @@ h3 {
     color: var(--secondary-cta);
 }
 
+.cta-btn-link {
+    text-decoration: none;
+    color: white;
+}
+
+.primary-btn-link:hover {
+    color: var(--third-cta);
+    text-decoration: none;
+}
+
+.secondary-btn-link:hover {
+    color: var(--secondary-cta);
+    text-decoration: none;
+}
+
 @media (max-width: 600px) {
     .hero-container {
         text-align: center;
