@@ -103,6 +103,11 @@ h3 {
     text-decoration: none;
 }
 
+/* Value Container*/
+
+
+/*Responsive CSS */
+
 @media (max-width: 600px) {
     .hero-container {
         text-align: center;
@@ -112,5 +117,11 @@ h3 {
 @media (max-width: 785px) {
     .cta-btn-homepage {
         margin: 0 auto;
+    }
+}
+
+@media (max-width: 785px) {
+    .secondary-cta-btn {
+        margin-top: 4px;
     }
 }
