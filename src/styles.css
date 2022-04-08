@@ -32,6 +32,10 @@ h3 {
     ;
 }
 
+.cta-btn-homepage {
+    margin: 5px;
+}
+
 .cta-btn {
     background-color: var(--third-cta);
     border: 1px solid var(--third-cta);
@@ -102,5 +106,11 @@ h3 {
 @media (max-width: 600px) {
     .hero-container {
         text-align: center;
+    }
+}
+
+@media (max-width: 785px) {
+    .cta-btn-homepage {
+        margin: 0 auto;
     }
 }
