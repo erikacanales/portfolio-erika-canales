@@ -15,6 +15,12 @@ h3 {
     font-family: var(--secondary-font);
 }
 
+/*Universal Classes */
+
+.main-font {
+    font-family: var(--head-font);
+}
+
 .hero-pic {
     display: block;
     position: relative;
