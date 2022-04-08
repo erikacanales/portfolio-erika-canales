@@ -134,6 +134,20 @@ h3 {
     background-color: var(--primary-cta);
 }
 
+.prob-text {
+    font-size: 18px;
+}
+
+/*Stat Section */ 
+.stat-container {
+    font-size: 22px;
+    background-color: var(--secondary-cta);
+    color: white;
+    width: 100%;
+    padding: 8%;
+    font-weight: 300;
+}
+
 /*Responsive CSS */
 
 @media (max-width: 600px) {
