@@ -116,6 +116,16 @@ h3 {
 
 .value-prop-container {
     margin-top: 9%;
+    margin-bottom: 9%;
+}
+
+/* Problem Section */ 
+.problem-container {
+    margin: 8%;
+}
+
+.card-problem-container {
+    background-color: var(--primary-cta);
 }
 
 /*Responsive CSS */
