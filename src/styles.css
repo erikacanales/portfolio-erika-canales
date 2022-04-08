@@ -104,7 +104,19 @@ h3 {
 }
 
 /* Value Container*/
+.value-icon {
+    color: var(--secondary-cta);
+    font-size: 24px;
+}
 
+.value-container {
+    font-family: var(--head-font);
+    font-weight: var(--light-weight);
+}
+
+.value-prop-container {
+    margin-top: 9%;
+}
 
 /*Responsive CSS */
 
