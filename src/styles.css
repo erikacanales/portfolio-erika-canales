@@ -84,6 +84,10 @@ h3 {
     color: var(--secondary-cta);
 }
 
+.primary-btn-link {
+    color: white;
+}
+
 .primary-btn-link:hover {
     color: var(--third-cta);
     text-decoration: none;
