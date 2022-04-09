@@ -158,6 +158,14 @@ h3 {
     padding-bottom: 10px;
 }
 
+/* Footer Section */
+
+footer {
+    background-color: var(--primary-cta);
+    color: var(--secondary-cta);
+}
+
+
 /*Responsive CSS */
 
 @media (max-width: 600px) {
