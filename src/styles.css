@@ -153,6 +153,11 @@ h3 {
     font-weight: 300;
 }
 
+/*Steps Section */ 
+.icon-container {
+    padding-bottom: 10px;
+}
+
 /*Responsive CSS */
 
 @media (max-width: 600px) {
