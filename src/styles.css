@@ -21,6 +21,8 @@ h3 {
     font-family: var(--head-font);
 }
 
+/* Homepage Intro */ 
+
 .hero-pic {
     display: block;
     position: relative;
@@ -169,6 +171,11 @@ footer {
     color: var(--secondary-cta);
 }
 
+/* About Me Intro Section*/
+.about-photo {
+    box-shadow: -13px 13px 2px rgba(6, 17, 60, 0.2);
+    max-height: 350px;
+}
 
 /*Responsive CSS */
 
@@ -184,8 +191,20 @@ footer {
     }
 }
 
-@media (max-width: 785px) {
+@media (max-width: 785px)and (min-width: 576px){
     .secondary-cta-btn {
         margin-top: 4px;
+    }
+}
+
+@media (max-width: 580px) {
+    .about-me-intro-p {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 580px) {
+    .about-me-container {
+        margin: 2%;
     }
 }
