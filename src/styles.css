@@ -201,6 +201,23 @@ footer {
     background-color: var(--secondary-cta);
     color: white;
 }
+/*Portfolio Section */
+
+.project-photo {
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.project-desc {
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /*Responsive CSS */
 
