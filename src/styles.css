@@ -173,7 +173,6 @@ footer {
 
 /* About Me Intro Section*/
 .about-photo {
-    box-shadow: -13px 13px 2px rgba(6, 17, 60, 0.2);
     max-height: 350px;
 }
 
