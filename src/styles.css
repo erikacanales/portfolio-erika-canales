@@ -197,6 +197,11 @@ footer {
     font-size: 18px;
 }
 
+.about-me-cta-container {
+    background-color: var(--secondary-cta);
+    color: white;
+}
+
 /*Responsive CSS */
 
 @media (max-width: 600px) {
