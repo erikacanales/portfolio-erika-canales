@@ -7,6 +7,10 @@
     --third-cta: #FF8C32;
 }
 
+p {
+    font-size: 18px;
+}
+
 h1 {
     font-family: var(--head-font);
 }
@@ -174,6 +178,23 @@ footer {
 /* About Me Intro Section*/
 .about-photo {
     max-height: 325px;
+}
+
+/*About Me Services Offered */
+.services-list-group {
+    background-color: var(--primary-cta);
+    text-align: center;
+}
+
+.check-icon {
+    color: var(--secondary-cta);
+}
+
+.service-item {
+    background-color: #DDDDDD;
+    border: none;
+    color: var(--secondary-cta);
+    font-size: 18px;
 }
 
 /*Responsive CSS */
