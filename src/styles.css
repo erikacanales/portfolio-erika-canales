@@ -225,6 +225,21 @@ footer {
     padding-top: 35px;
 }
 
+.form-btn {
+    background-color: var(--third-cta);
+    color: white;
+    margin-top: 5px;
+    border: 1px solid var(--third-cta);
+}
+
+.form-btn:hover {
+    background-color: white;
+    color: var(--third-cta);
+    margin-top: 5px;
+    border: 1px solid var(--third-cta);
+}
+
+
 /*Responsive CSS */
 
 @media (max-width: 600px) {
