@@ -274,3 +274,9 @@ footer {
         margin: 2%;
     }
 }
+
+@media (max-width: 580px) {
+    #sign-up-btn {
+        text-align: center;
+    }
+}
