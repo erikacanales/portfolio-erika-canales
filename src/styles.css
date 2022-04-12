@@ -220,6 +220,11 @@ footer {
     font-size: 21px;
 }
 
+/* Contact Form Section */ 
+.form-container {
+    margin-left: 0;
+}
+
 /*Responsive CSS */
 
 @media (max-width: 600px) {
