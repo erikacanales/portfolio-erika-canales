@@ -239,6 +239,9 @@ footer {
     border: 1px solid var(--third-cta);
 }
 
+.footer-icon {
+    margin: 5px;
+}
 
 /*Responsive CSS */
 
