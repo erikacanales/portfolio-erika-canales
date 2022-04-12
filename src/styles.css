@@ -222,7 +222,7 @@ footer {
 
 /* Contact Form Section */ 
 .form-container {
-    margin-left: 0;
+    padding-top: 35px;
 }
 
 /*Responsive CSS */
