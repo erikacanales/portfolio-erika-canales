@@ -127,7 +127,6 @@ h3 {
 .work-inquiry-container {
     margin: 0;
     background-color: var(--primary-cta);
-    padding:;
 }
 
 /* Value Container*/
@@ -179,6 +178,7 @@ h3 {
 footer {
     background-color: var(--primary-cta);
     color: var(--secondary-cta);
+    padding: 50px;
 }
 
 /* About Me Intro Section*/
@@ -247,7 +247,10 @@ footer {
 }
 
 .footer-icon {
+    margin-top: 50%;
     margin: 5px;
+    padding-top: 50%;
+    font-size: 28px;
 }
 
 /*Responsive CSS */
