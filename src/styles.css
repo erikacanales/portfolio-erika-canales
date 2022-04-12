@@ -124,6 +124,12 @@ h3 {
     text-decoration: none;
 }
 
+.work-inquiry-container {
+    margin: 0;
+    background-color: var(--primary-cta);
+    padding:;
+}
+
 /* Value Container*/
 .value-icon {
     color: var(--secondary-cta);
@@ -201,6 +207,7 @@ footer {
     background-color: var(--secondary-cta);
     color: white;
 }
+
 /*Portfolio Section */
 
 .project-photo {
