@@ -178,7 +178,7 @@ h3 {
 footer {
     background-color: var(--primary-cta);
     color: var(--secondary-cta);
-
+    padding: 50px;
 }
 
 /* About Me Intro Section*/
