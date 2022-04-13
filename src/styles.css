@@ -290,3 +290,15 @@ footer {
         text-align: center;
     }
 }
+
+@media (max-width: 575px) {
+    .affirmation-app-desc-container {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    .affirmation-app-desc-media-container {
+        display: none;
+    }
+}
